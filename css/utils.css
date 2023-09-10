@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=PT+Serif:wght@700&family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Serif:wght@700&family=Roboto:wght@100&display=swap");
 :root {
   --white: #fff;
   --primary: #213555;
@@ -7,6 +6,7 @@
   --success: #15cda8;
   --danger: #df2e38;
   --warning: #e5d283;
+  --warning-light: #e5d1832b;
   --info: #99f0ca;
   --dark: #393e46;
   --light: #fcfafa;
@@ -74,12 +74,18 @@
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
+  border: 0.1rem solid var(--warning);
+  cursor: pointer;
 }
 
 .btn-primary {
   color: var(--white);
   background-color: var(--primary);
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  border: 0.1rem solid #ffffff00;
+  transition: 0.3s ease-in;
 }
 
 .btn-secondary {
