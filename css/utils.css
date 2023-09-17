@@ -276,6 +276,9 @@
   border: 0.2rem solid var(--primary);
   color: var(--dark);
   border-radius: 1rem;
+  transform: translateY(-8rem);
+  width: 80%;
+  margin: auto;
 }
 
 .rooms .card img {
@@ -337,6 +340,28 @@
 
 /* Contact Form */
 
+#contact {
+  width: 80%;
+  margin: auto;
+  border: 0.2rem solid var(--primary);
+  border-radius: 1rem;
+}
+
+#contact .column-1 > img {
+  border: 0.5rem;
+  border-radius: 1rem 0rem 0rem 1rem;
+  display: block;
+  object-fit: cover;
+}
+
+.column-2 .callback {
+  display: inline-block;
+  font-size: 2rem;
+  vertical-align: middle;
+  color: var(--dark);
+  opacity: .4;
+}
+
 .contact-form {
   width: 100%;
   padding: 2rem 0;
@@ -352,7 +377,7 @@
 }
 
 .contact-form input {
-  width: 100%;
+  width: 80%;
   padding: 5px;
   height: 40px;
   border: 1px solid var(--light);
