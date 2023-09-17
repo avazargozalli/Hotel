@@ -245,13 +245,14 @@
 
 #gallery .row{
   flex-grow: 1;
-  overflow: hidden;
+
 }
 
 #gallery img{
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
+  transition: .6s ease-out;
 }
 
 #gallery img:hover{
@@ -259,3 +260,81 @@
   opacity: 0.8;
   cursor: pointer;
 }
+
+.row .column {
+  overflow: hidden;
+}
+
+/*Cards*/
+
+.card{
+  color: #fff;
+  font-weight: 700;
+}
+
+.card-body{
+  padding: 1rem;
+  border: .2rem solid var(--primary);
+  color: var(--dark);
+  border-radius: 1rem;
+}
+
+.rooms .card img{
+  border-radius: 1rem;
+  border: .2rem solid var(--primary);
+  border-radius: 1rem;
+  object-fit: cover;
+  height: 80%;
+  width: 100%;
+}
+
+/* teams cards */
+
+#teams{
+  width: 80%;
+  margin: auto;
+}
+
+#teams .flex-items img{
+  border-radius: 50%;
+  border: .2rem solid var(--primary);
+  border-radius: 1rem;
+  object-fit: cover;
+  height: 80%;
+  width: 100%;
+  transition: .6s;
+}
+
+#teams .flex-items img:hover{
+  transform: scale(.9);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#teams .flex-items{
+  display: flex;
+  gap: 10rem;
+  overflow: hidden;
+}
+
+#teams .teams-content{
+  background-color: #e5d283;
+  transform: translateY(-8rem);
+  margin: -1rem;
+  border: .2rem solid var(--primary);
+  border-radius: 1rem;
+}
+
+#teams .flex-items h2{
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#teams .flex-items p{
+  font-size: 2rem;
+  color: var(--dark);
+}
+
+
+
