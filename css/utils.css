@@ -413,3 +413,26 @@
   border: 1px solid var(--secondary);
   border-color: #00000033;
 }
+
+/* Footer */
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.footer a{
+  color: var(--danger);
+}
+
+.footer a:hover{
+  opacity: .7;
+}
+
+.footer .social a{
+  margin-right: 1rem;
+}
