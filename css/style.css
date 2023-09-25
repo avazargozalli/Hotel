@@ -169,3 +169,21 @@ img {
 .about p {
   margin: 2rem 0;
 }
+
+/* Mobile */
+
+@media(max-width: 768px) {
+  html{
+    font-size: 8px;
+  }
+
+  .navbar{
+    flex-direction: column;
+    height: 100px;
+    padding: 20px;
+  }
+  .navbar a{
+    padding: 10px;
+    margin: 0 3px;
+  }
+}
